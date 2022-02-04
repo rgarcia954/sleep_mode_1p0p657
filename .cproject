@@ -302,16 +302,16 @@
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
 	<storageModule moduleId="refreshScope" versionNumber="2">
 		<configuration configurationName="Debug">
-			<resource resourceType="PROJECT" workspacePath="/sleep_mode"/>
+			<resource resourceType="PROJECT" workspacePath="/sleep_mode_1p0p657"/>
 		</configuration>
 		<configuration configurationName="Release">
-			<resource resourceType="PROJECT" workspacePath="/sleep_mode"/>
+			<resource resourceType="PROJECT" workspacePath="/sleep_mode_1p0p657"/>
 		</configuration>
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
 	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
 	<storageModule moduleId="com.arm.cmsis.project">
-		<rteConfig name="sleep_mode.rteconfig"/>
+		<rteConfig name="sleep_mode_1p0p657.rteconfig"/>
 		<toolChainAdapter id="com.arm.cmsis.pack.build.gnuarmeclipse.toolChainAdapter" name="Cross ARM GCC Toolchain Adapter"/>
 		<device Dclock="48000000" Dcore="Cortex-M33" DcoreVersion="r0p4" Dendian="Little-endian" Dfamily="Montana Series" Dfpu="SP_FPU" Dmpu="MPU" Dname="Montana" Dvendor="ONSemiconductor:141" Pname=""/>
 		<files>
