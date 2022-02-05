@@ -2,8 +2,8 @@
  * Auto generated Run-Time-Environment Component Configuration File
  *      *** Do not modify ! ***
  *
- * Project: sleep_mode
- * RTE configuration: sleep_mode.rteconfig
+ * Project: sleep_mode_1p0p657
+ * RTE configuration: sleep_mode_1p0p657.rteconfig
 */
 #ifndef RTE_COMPONENTS_H
 #define RTE_COMPONENTS_H
