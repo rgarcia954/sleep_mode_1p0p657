@@ -89,7 +89,7 @@
  * Possible options:
  * 	- Any value between 5 to 300000 inclusive
  */
-#define RTC_SLEEP_TIME_MS				(uint32_t)(1000)
+#define RTC_SLEEP_TIME_MS				(uint32_t)(10000)
 
 /* Define the time in low power baseband clock cycles to spend in deep sleep mode
  * before waking-up the device using baseband timer
@@ -97,7 +97,7 @@
  *   - DEEPSLTIME_0
  *   - ((uint32_t)(0x1U << BB_DEEPSLWKUP_DEEPSLTIME_Pos))
  *   - etc. */
-#define BB_DEEP_SLEEP_TIME              ((uint32_t)(0xFFFF << BB_DEEPSLWKUP_DEEPSLTIME_Pos))
+#define BB_DEEP_SLEEP_TIME              ((uint32_t)(0x4FFFF << BB_DEEPSLWKUP_DEEPSLTIME_Pos))
 
 /* Define the time in low power clock cycles allowed
  * for stabilization of the high frequency oscillator (TWOSC) */
